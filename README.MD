@@ -1,8 +1,8 @@
-¼òµ¥µÄwebÓ¦ÓÃËµÃ÷¶Ëµ½¶ËµÄpaasÓ¦ÓÃ³¡¾°¡£
+ç®€å•çš„webåº”ç”¨è¯´æ˜ç«¯åˆ°ç«¯çš„paasåº”ç”¨åœºæ™¯ã€‚
 
-# Ó¦ÓÃËµÃ÷
-JavaEE webÓ¦ÓÃ£¬Ä£ÄâÓÃ»§ÔöÉ¾¸Ä²é¡£
-ÔËĞĞ£º
+# åº”ç”¨è¯´æ˜
+JavaEE webåº”ç”¨ï¼Œæ¨¡æ‹Ÿç”¨æˆ·å¢åˆ æ”¹æŸ¥ã€‚
+è¿è¡Œï¼š
 git clone https://github.com/binbinning/paas-scenario.git
 mvn clean packge
 mvn jetty:run
@@ -13,6 +13,6 @@ deploy to tomcat:
 
 access: localhost:8080/paas-scenario.   
     
-# PaaSÆ½Ì¨ÔËĞĞËµÃ÷
+# PaaSå¹³å°è¿è¡Œè¯´æ˜
 sh run.sh to build docker image and push to repository
 kubernetes deployment
