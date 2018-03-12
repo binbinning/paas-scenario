@@ -13,6 +13,6 @@ deploy to tomcat:
 
 access: localhost:8080/paas-scenario.   
     
-#PaaS平台运行说明
+# PaaS平台运行说明
 sh run.sh to build docker image and push to repository
 kubernetes deployment
